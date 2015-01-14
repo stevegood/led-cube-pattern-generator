@@ -1,0 +1,14 @@
+{
+  "name": "3x3x3patterngenerator",
+  "version": "1.0.0",
+  "description": "A pettern generator for a 3x3x3 LED Cube",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steve Good <steve@stevegood.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.3.12"
+  }
+}

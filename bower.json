@@ -1,0 +1,25 @@
+{
+  "name": "3x3x3patterngenerator",
+  "version": "1.0.0",
+  "authors": [
+    "Steve Good <steve@stevegood.org>"
+  ],
+  "description": "A pattern generator for 3x3x3 LED Cubes",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "requirejs": "~2.1.15"
+  }
+}
