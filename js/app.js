@@ -2,9 +2,9 @@
 require.config({
   baseUrl: '',
   paths: {
-    hex2dec: 'js/hex2dec',
-    jquery: 'bower_components/jquery/dist/jquery.min',
-    bootstrap: 'bower_components/bootstrap/dist/js/bootstrap.min'
+    hex2dec: 'hex2dec',
+    jquery: '../bower_components/jquery/dist/jquery.min.js',
+    bootstrap: '../bower_components/bootstrap/dist/js/bootstrap.min.js'
   }
 });
 
@@ -241,8 +241,8 @@ function App($){
 var app;
 
 require(['hex2dec']);
-require(['jquery'], function($){
-  require(['bootstrap']);
+require(['../bower_components/jquery/dist/jquery.min'], function($){
+  require(['../bower_components/bootstrap/dist/js/bootstrap.min']);
 
   app = new App($);
 
